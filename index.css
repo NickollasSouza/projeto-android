@@ -6,13 +6,14 @@
 }
 
 html, body {
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
     background-color: black;
+    
 }
 
 body {
-    background: url(fundo-madeira.jpg) no-repeat top center;
+    background: url(imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
     
@@ -28,13 +29,12 @@ body {
     height: 580px;
 }
 #frame{
-    height: 55vh;
-    width: 22vh;
+    height: 70vh;
+    width: 40vh;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
-    
+    transform: translate(-50%, -49.5%);
     background-color: white;
 }
 /* */
@@ -48,38 +48,23 @@ body {
     border-radius: 100%;
     height: 50px;
     width: 50px;
-    padding: 5px;
-    margin-top: 1%;
-    display: flex;
-    
+    margin-top: 1%; 
+    box-sizing: border-box; 
+    box-shadow: 5px 5px 15px black;
 }
-#home {
-    position: absolute;
-    left: 94%;
+
+.imagens:hover {
+    border: 2px solid rgba(255, 255, 255, 0.486);
 }
-#youtube {
-    position: absolute;
-    left: 94%;
-    top: 10%;
+
+
+.imagens:hover {
+    transform: translate(-10%,-10%);
+    box-shadow: 10px 10px 25px black;
+    transition: transform 0.5s, border 1s;
 }
-#git {
-    position: absolute;
-    left: 94%;
-    top: 20%;
+
+
+.position {
+    text-align: right;
 }
-#insta {
-    position: absolute;
-    left: 94%;
-    top: 30%;
-}
-#twitter {
-    position: absolute;
-    left: 94%;
-    top: 40%;
-}
-#facebook {
-    position: absolute;
-    left: 94%;
-    top: 50%;
-}
-/* */
