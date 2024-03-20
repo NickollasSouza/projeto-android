@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(fundo-madeira.jpg);
+    background-size: cover;
+}
+
+#celular {
+    display: flex;
+    justify-content: center;  
+}
+#cmagem{
+    height: 610px;
+}
+#frame{
+    height: 460px;
+    width: 261px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 12.5vh;
+    background-color: white;
+}
+
+.imagens {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    margin-top: 1%;
+    display: flex;
+    
+}
+#home {
+    position: absolute;
+    left: 95%;
+}
+#youtube {
+    position: absolute;
+    left: 95%;
+    top: 10%;
+}
+#git {
+    position: absolute;
+    left: 95%;
+    top: 20%;
+}
+#insta {
+    position: absolute;
+    left: 95%;
+    top: 30%;
+}
+#twitter {
+    position: absolute;
+    left: 95%;
+    top: 40%;
+}
+#facebook {
+    position: absolute;
+    left: 95%;
+    top: 50%;
+}
