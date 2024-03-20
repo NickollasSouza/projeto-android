@@ -5,28 +5,36 @@
     margin: 0px;
 }
 
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
 body {
-    background-image: url(fundo-madeira.jpg);
+    background: url(fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
+    background-attachment: fixed;
+    
 }
 
 
 /* iframe e elementos do celular */
-#celular {
-    margin-top: 4px;
-    display: flex;
-    justify-content: center;  
-}
 #cmagem{
-    height: 610px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 580px;
 }
 #frame{
-    height: 75vh;
-    width: 42vh;
-    display: flex;
-    justify-content: center;
+    height: 55vh;
+    width: 22vh;
     position: absolute;
-    margin-top: 12.5vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
     background-color: white;
 }
 /* */
@@ -47,31 +55,31 @@ body {
 }
 #home {
     position: absolute;
-    left: 95%;
+    left: 94%;
 }
 #youtube {
     position: absolute;
-    left: 95%;
+    left: 94%;
     top: 10%;
 }
 #git {
     position: absolute;
-    left: 95%;
+    left: 94%;
     top: 20%;
 }
 #insta {
     position: absolute;
-    left: 95%;
+    left: 94%;
     top: 30%;
 }
 #twitter {
     position: absolute;
-    left: 95%;
+    left: 94%;
     top: 40%;
 }
 #facebook {
     position: absolute;
-    left: 95%;
+    left: 94%;
     top: 50%;
 }
 /* */
